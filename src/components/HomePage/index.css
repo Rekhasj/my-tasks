@@ -1,0 +1,57 @@
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+.task-container {
+  background-color: #1a171d;
+  color: #f3aa4e;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.tag-container {
+  background-color: #000000;
+  color: #f1f5f9;
+  width: 550px;
+  padding: 10px;
+}
+.input-card {
+  display: flex;
+  flex-direction: column;
+  color: #f1f5f9;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px;
+}
+.label-task {
+  margin: 5px;
+}
+.input-text {
+  width: 250px;
+  height: 30px;
+}
+.select-tag {
+  width: 250px;
+  height: 30px;
+}
+.add-button {
+  background-color: #f3aa4e;
+  color: #f1f5f9;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 10px;
+}
+.tag-list-card {
+  list-style-type: none;
+  display: flex;
+}
+.display-button {
+  background-color: transparent;
+  color: #f1f5f9;
+  border: 1px solid #f3aa4e;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px 8px;
+}
