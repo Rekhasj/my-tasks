@@ -1,5 +1,6 @@
 .main-container {
   display: flex;
+  background-size: cover;
   height: 100vh;
 }
 .task-container {
@@ -10,12 +11,14 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  height: 100vh;
 }
 .tag-container {
   background-color: #000000;
   color: #f1f5f9;
   width: 550px;
   padding: 10px;
+  height: 100vh;
 }
 .input-card {
   display: flex;
@@ -46,6 +49,7 @@
 .tag-list-card {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
 }
 .display-button {
   background-color: transparent;
